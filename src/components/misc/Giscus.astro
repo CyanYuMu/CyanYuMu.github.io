@@ -26,7 +26,7 @@ const {
 
 <div id="giscus-container"></div>
 
-<script define:vars={{ repo, repoId, category, categoryId, mapping, reactionsEnabled, emitMetadata, inputPosition, lang }}>
+<script define:vars={{ repo, repoId, category, categoryId, mapping, reactionsEnabled, emitMetadata, inputPosition, lang }} is:inline>
   function loadGiscus() {
     const container = document.getElementById('giscus-container');
     if (!container) return;

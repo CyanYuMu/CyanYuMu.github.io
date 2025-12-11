@@ -34,9 +34,7 @@ const extension = (() => {
 })();
 
 const videoExts = ["mp4", "webm", "ogg"];
-const imageExts = ["png", "jpg", "jpeg", "avif", "webp", "svg", "gif"];
 const isVideo = videoExts.includes(extension);
-const isImage = imageExts.includes(extension) || (!extension && !isVideo);
 
 let asset: string | Record<string, unknown> | undefined;
 if (isLocal) {

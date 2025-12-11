@@ -117,7 +117,7 @@ const positionClass = getPositionClass(position);
 </div>
 
 {isCarouselEnabled && (
-	<script define:vars={{ carouselInterval }}>
+	<script define:vars={{ carouselInterval }} is:inline>
 	// @ts-nocheck
 	function initFullscreenWallpaperCarousel() {
 		const wallpaperContainer = document.querySelector('[data-fullscreen-wallpaper]');

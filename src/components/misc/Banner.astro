@@ -208,10 +208,7 @@ const creditUrl = credit?.url;
 		});
 	}
 
-	/**
-	 * @param {HTMLElement} item
-	 */
-	function showItem(item) {
+	function showItem(item: HTMLElement) {
 		item.classList.add('opacity-100', 'scale-100');
 		item.classList.remove('opacity-0', 'scale-110');
 	}
@@ -230,10 +227,7 @@ const creditUrl = credit?.url;
 		switchTo(currentIndex);
 	}
 
-	/**
-	 * @param {number} index
-	 */
-	function switchTo(index) {
+	function switchTo(index: number) {
 		hideAll();
 		showItem(allItems[index]);
 	}
