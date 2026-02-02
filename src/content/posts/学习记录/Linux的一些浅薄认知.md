@@ -1,6 +1,6 @@
 ---
 title: 开始读Linux了
-published: 2025-11-03
+published: 2025-10-27
 description: "很想学学有关Linux的内核相关知识，可是一致没啥时间。哎~"
 image: ""
 tags: [学习记录]
@@ -8,7 +8,7 @@ category: 学习记录
 draft: false
 ---
 
-# 第零章：梨妞壳斯的前情提要
+# 第零章：linux前情提要
 
 ## 操作系统
 
